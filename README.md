@@ -14,9 +14,18 @@ The easiest way to install *st_optics* is by using `pip` :
 
     pip install st_optics
 
+## How to use
+
+```python
+from st_optics import ST_OPTICS
+
+st_optics = ST_OPTICS(xi = 0.4, eps2 = 10, min_samples = 5)
+st_optics.fit(data)
+```
+
 ## Description
 
-A package to perform the ST OPTICS clustering. For more details please see the following papers: 
+A package to perform the ST OPTICS clustering. For more details please see the following papers:
 
 * Ankerst, M., Breunig, M. M., Kriegel, H. P., & Sander, J. (1999). OPTICS: ordering points to identify the clustering structure. ACM Sigmod record, 28(2), 49-60.
 
